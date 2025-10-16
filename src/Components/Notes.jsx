@@ -20,7 +20,7 @@ const Notes = () => {
     <div className='flex flex-col gap-1 items-center justify-center'>
       {arr.map((element, index)=>{
         return(<div key={index} className='flex justify-center items-center   outline-green-500 space-x-1'>
-       <p className='font-bold bg-green-600 px-[0.5rem] py-[0.3rem] w-[45vw] hover:bg-pink-600 hover:text-white rounded-[3px] uppercase'>{element.name}</p>
+       <p className='font-bold bg-green-600 px-[0.5rem] py-[0.3rem] w-35vw] hover:bg-pink-600 hover:text-white rounded-[3px] uppercase'>{element.name}</p>
        <a href={element.link} className=' bg-pink-600 px-[0.5rem] py-[0.3rem] hover:bg-green-600 hover:text-white font-bold rounded-[3px]'>Link</a>
     </div>);
       })};
